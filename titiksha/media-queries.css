@@ -1,0 +1,196 @@
+@media (max-width: 768px) {
+
+  
+    nav{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        gap: 6px;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        overflow: initial;
+        
+    
+     
+    }
+    nav .logo{
+        margin-top: 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 0.5rem;
+        height:80px;
+    
+    
+    }
+    nav .logo-img{
+       margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius:20px;
+    }
+    nav .logo-name{
+        
+        margin-top: 0.9rem;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        font-weight: 700;
+    }
+    .left-heading {
+        font-size: 1.3rem;
+        
+    
+    }
+    .header-section{
+        padding-right: 10px;
+        gap: 10%;
+    
+    }
+    .content{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        font-size: 1rem;
+   
+    }
+    
+    .hero-button{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 0.5rem;
+    }
+    .nav-toggle{
+        display: block;
+       
+        margin-right:20px ;
+    }
+    .nav-toggle img{
+        width: 25px;
+    }
+    
+
+    .elements {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: hsla(222, 46%, 11%, 0.859);
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        
+    }
+    .elements a{
+        font-size: 1.2rem;
+    }
+    .elements.active {
+        left: 0;
+        padding-left: 10%;
+    }
+   
+    .join-button{
+        display: none;
+    }
+    .logo-name{
+        display: none;
+    }
+    .alternate-name{
+        display:block;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    .header-section{
+        
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+     
+    }
+    .header-section{
+        padding-top:30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding:4rem 0rem ;
+       
+    }
+    
+    .header-section .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    
+    }
+    .welcome-button{
+        padding: 8px;
+        width: 20%;
+        margin-left:40%;
+    
+    }
+    
+    
+    .left-heading {
+        padding: 1rem;
+    
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        gap: 0.8rem;
+        
+    
+    }
+
+    
+    .left-heading .down{
+        margin-top: 0;
+    }
+    .content{
+        padding: 1rem ;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: rgb(160, 155, 167);
+    }
+    .hero-button{
+        display: flex;
+        gap: 3rem;
+    }
+    .hero-button .button1{
+        margin-left: 40%;
+        
+        display: inline-block;
+        padding: 10px 2px;
+    
+    
+    }
+    .hero-button .button2{
+        margin-left: 40%;
+        display: inline-block;
+        margin-top: -2rem;
+        padding: 10px 20px;
+    
+    }
+    .right{
+        padding: 3rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .right .logo img{
+     
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+  
+    
+ 
+    
+   
+}
+
+   
