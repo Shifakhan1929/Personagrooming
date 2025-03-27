@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+
+<body>
+ 
+
+    <header>
+        <div class="wrapper">
+
+            <nav>
+                <div class="logo">
+                    <img src="images/personalogo.jpg.jpeg" class="logo-img"
+                    alt="">
+                    <div class="logo-name">The Personality Grooming Club </div>
+                    <div class="alternate-name logo-name">The Persona </div>
+                
+                </div>
+
+                <div class="elements" id="elements">
+                    <a href="#">Home</a>
+                    <a href="#">Event</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Quiz</a>
+                    <a href="#">Contact</a>
+
+                </div>
+                <button class="join-button">Join Now</button>
+                <a href="#" class="nav-toggle" id="nav-toggle">
+                    <img src="images/icons8-hamburger-menu.svg" alt="">
+                 </a>
+                
+               
+            </nav>
+            <hr class="line">
+        
+           <!-- End of list of navigation menu -->
+          
+            <div class="header-section">
+                 <div class="left">
+                    <div class="welcome-button">
+                        <p>Welcome to persona</p>
+                    </div>
+                    <div class="left-heading">
+                        <h1 class="up">Unlock Your</h1>
+                        <h1 class="down">True Potential</h1>
+                       
+                    </div>
+                    <div class="content">
+                        <p>
+                            At Persona Club, We Believe In The Power Of Individuality And The Art Of Personal Growth. Our Mission Is To Help You Unlock Your True Potential, Refine Your Skills, And Present The Best Version Of Yourself To The World.
+                        </p>
+                    </div>
+                    <div class="hero-button">
+                        <a href="#" class="button1 ">Join our Community</a>
+                        <a href="#" class="button2">Persona Magazine</a>
+                    </div>
+
+                    
+                 </div>
+                 <div class="right">
+                    <div class="logo">
+                        <img src="images/personalogo.jpg.jpeg" alt="persona logo">
+                    </div>
+                 </div>
+
+           </div>
+          
+         
+           <hr>
+        </div>
+        
+
+         
+<script>
+    const toggleButton= document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('elements');
+
+    toggleButton.addEventListener('click',()=> {
+      navLinks.classList.toggle('active');
+    })
+</script>
+    
+</body>
+</html>
